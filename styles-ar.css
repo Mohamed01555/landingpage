@@ -58,7 +58,12 @@ header {
     background-repeat: no-repeat;
     background-position: center; /* Centers the image */
 }
-
+li::marker {
+    content: "📌"; /* Replace with the emoji or text you want to use */
+    color: #3498db; /* Customize the color of the emoji or text */
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-right: 10px; /* Add some spacing between the marker and the content */
+}
 .custom-p {
     color: transparent;
     background-image: linear-gradient(to right, #c2f31f, #f6f3f7);
