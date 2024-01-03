@@ -1,0 +1,242 @@
+body {
+    font-family:'emad-diana-extra-regular/Emad-Diana eXtra Regular.ttf';
+    /* direction: rtl; */
+    margin: 0;
+    padding: 0;
+    background-color: #cba4a4;
+    color: #000000;
+}
+
+.logo-container {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.logo-container img {
+    height: 100%; /* Make sure the logo takes the full height of the container */
+    width: auto; /* Maintain the aspect ratio of the logo */
+}
+
+nav {
+    background-color: #239b33;
+    background-image: linear-gradient(to right, #c812aa, #880606); /* Adjust colors as needed */
+    color: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: transparent;
+    background-image: linear-gradient(to right, #d6e0df, #ffffff); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* color: #d1ad1f; */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border:#333;
+    border-radius: 20px;
+    cursor: pointer;
+    position:absolute;
+    z-index: 1; /* Set a higher z-index value */
+    right:  20px;
+    top: 20px;    
+}
+
+header {
+    background: url('https://th.bing.com/th/id/OIG.286r3Zt8rce4AmiIkNY0?pid=ImgGn'); /* Gradient background + Image background */
+    /* background-color: #05ff50; */
+    color: #06ff1f;
+    text-align: left;
+    padding: 20px;
+    background-size:cover; /* Ensures the image covers the entire header */
+    background-repeat: no-repeat;
+    background-position: center; /* Centers the image */
+}
+
+.custom-p {
+    color: transparent;
+    background-image: linear-gradient(to right, #f31f74, #9c3ba8);
+    background-clip: text;
+    text-decoration: none;
+    padding-left: 20px;
+    display: inline-block; /* Ensures the background is applied to the entire text width */
+}
+
+.achievement-section{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #7313e9, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(118, 86, 86, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+}
+
+
+.description-section{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #f6d012, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+}
+
+
+.differentiation-section {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #90e2a9, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(118, 86, 86, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+}
+
+.differentiation-section p {
+    padding: 20px;
+}
+
+.differentiation-section h2 {
+    color: transparent;
+    background-image: linear-gradient(to right, #db34a6, #2c3e50); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.differentiation-section ul {
+    padding: 0px 30px;
+    list-style-type: disc;
+}
+
+.differentiation-section li {
+    margin-bottom: 10px;
+    color: #333;
+    /* padding: 0px 10px; */
+
+}
+
+
+.ben-section{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #ba1ac0, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+}
+
+.creative-section{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #888188, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+}
+
+.how-section{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #888188, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+    }
+
+.how-section p {
+    padding: 20px;
+}
+
+.contrib-section{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #fff4ff, #f0fff0); /* Gradient background */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-size 0.5s; /* Add a smooth transition effect */
+    }
+
+.contrib-section p {
+    padding: 30px;
+}
+.section-content {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 250px; /* Adjust the width as needed */
+    height: 250px; /*Adjust the width as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+    border-radius: 15px;
+    
+}
+h2 {
+    color: transparent;
+    background-image: linear-gradient(to right, #db34a6, #2c3e50); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 20px;
+
+}
+
+.custom-h2{
+    color: transparent;
+    background-image: linear-gradient(to bottom, #2ed530, #35850d); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
+ul, ol {
+    /* list-style-type:; */
+    padding: 0px 50px;
+}
+
+a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-a{
+    color: transparent;
+    background-image: linear-gradient(to right, #f31f74, #9c3ba8); /* Adjust colors as needed */
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #412525;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
