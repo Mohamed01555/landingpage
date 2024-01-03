@@ -8,6 +8,8 @@ body {
 }
 
 .logo-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the end (right) of the container */
     margin-right: 20px; /* Adjust the margin as needed */
 }
 
@@ -15,6 +17,7 @@ body {
     height: 100%; /* Make sure the logo takes the full height of the container */
     width: auto; /* Maintain the aspect ratio of the logo */
 }
+
 
 nav {
     /* background-color: #239b33; */
@@ -66,16 +69,24 @@ li::marker {
 }
 .custom-p {
     color: transparent;
-    background-image: linear-gradient(to right, #c2f31f, #f6f3f7);
+    background-image: linear-gradient(to right, #eae31d, #0ed6bffc);
     background-clip: text;
     text-decoration: none;
     display: inline-block; /* Ensures the background is applied to the entire text width */
 }
 
+.custom-h2{
+    color: transparent;
+    background-image: linear-gradient(to bottom, #ffffff, #e8d6d6); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
 .achievement-section{
     display: flex;
     align-items: center;
-    background: linear-gradient(to bottom, #7313e9, #f0fff0); /* Gradient background */
+    background: linear-gradient(to bottom, #5b9de0, #f0fff0); /* Gradient background */
     border-radius: 10px;
     padding: 30px;
     margin: 10px 20px;
@@ -134,7 +145,7 @@ li::marker {
 .ben-section{
     display: flex;
     align-items: center;
-    background: linear-gradient(to bottom, #ba1ac0, #f0fff0); /* Gradient background */
+    background: linear-gradient(to bottom, #f6b8f8, #f0fff0); /* Gradient background */
     border-radius: 10px;
     padding: 30px;
     margin: 10px 20px;
@@ -145,7 +156,7 @@ li::marker {
 .creative-section{
     display: flex;
     align-items: center;
-    background: linear-gradient(to bottom, #888188, #f0fff0); /* Gradient background */
+    background: linear-gradient(to bottom, #078c9b, #f0fff0); /* Gradient background */
     border-radius: 10px;
     padding: 30px;
     margin: 10px 20px;
@@ -203,13 +214,7 @@ h2 {
 
 }
 
-.custom-h2{
-    color: transparent;
-    background-image: linear-gradient(to bottom, #11eb39, #fafafa); /* Adjust colors as needed */
-    -webkit-background-clip: text;
-    background-clip: text;
-    
-}
+
 
 ul, ol {
     /* list-style-type:; */

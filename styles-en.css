@@ -61,7 +61,7 @@ header {
 
 .custom-p {
     color: transparent;
-    background-image: linear-gradient(to right, #f31f74, #9c3ba8);
+    background-image: linear-gradient(to right, #1ff3e8, #3d9e05);
     background-clip: text;
     text-decoration: none;
     padding-left: 20px;
@@ -71,7 +71,7 @@ header {
 .achievement-section{
     display: flex;
     align-items: center;
-    background: linear-gradient(to bottom, #7313e9, #f0fff0); /* Gradient background */
+    background: linear-gradient(to bottom, #1377e9, #f0fff0); /* Gradient background */
     border-radius: 10px;
     padding: 30px;
     margin: 10px 20px;
